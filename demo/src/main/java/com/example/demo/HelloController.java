@@ -8,6 +8,6 @@ public class HelloController {
        
     @GetMapping("akhilesh")
     public String getDetail(){
-        return "Welcome";
+        return "Welcome toGIT";
     }
 }
