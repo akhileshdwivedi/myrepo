@@ -9,6 +9,7 @@ public class HelloController {
     @GetMapping("akhilesh")
     public String getDetail(){
         System.out.println("Master commit test");
+        System.out.println("Master commit test1");
         return "Welcome";
     }
 }
