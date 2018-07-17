@@ -8,6 +8,7 @@ public class HelloController {
        
     @GetMapping("akhilesh")
     public String getDetail(){
-        return "Welcome toGIT";
+        System.out.println("Test success");
+        return "Welcome";
     }
 }
