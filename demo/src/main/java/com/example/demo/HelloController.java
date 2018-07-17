@@ -9,7 +9,8 @@ public class HelloController {
     @GetMapping("akhilesh")
     public String getDetail(){
         System.out.println("Master commit test");
-        System.out.println("Master commit test1");
+        System.out.println("Master commit conflict");
+        System.out.println("Master commit merge");
         return "Welcome";
     }
 }
